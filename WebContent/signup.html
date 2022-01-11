@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css1/style.css">
+
+	</head>
+  <script type="text/javascript">
+    function validate() {
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("password-confirm").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not match");
+            return false;
+        }
+        return true;
+    }
+</script>
+	<body class="img" style="background-image: url(images1/bg.jpg);">
+	<section class="ftco-section">
+		<div class="container">
+        <div class="button" id="button">
+          <a href="home.html">Home</a>
+        </div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Sign Up</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-7 col-lg-5">
+					<div class="login-wrap">
+		      	<h3 class="text-center mb-4">Create Your Account</h3>
+						<form name="Signup" action="Signup" method="post" class="signup-form" onsubmit="return validate()">
+		      		<div class="form-group mb-3">
+		      			<label class="label" for="name">Name</label>
+		      			<input name="name" id="name" type="text" class="form-control" placeholder="Name" pattern=".{6,}" title="Must have atleast 6 characters" size="20" required>
+		      			<span class="icon fa fa-user-o"></span>
+		      		</div>
+		      		<div class="form-group mb-3">
+		      			<label class="label" for="email">Username</label>
+		      			<input name="email" id="email"type="text" class="form-control" placeholder="abc@gmail.com" pattern=".+@gmail.com" title="Must end with @gmail.com" size="30" required>
+		      			<span class="icon fa fa-paper-plane-o"></span>
+		      		</div>
+	            <div class="form-group mb-3">
+	            	<label class="label" for="password">Password</label>
+	              <input name="password" id="password" type="password" class="form-control" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least One Uppercase letter, One Lowercase letter,One number, and should have 8 or more characters" required>
+	              <span toggle="#password" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+	              <span class="icon fa fa-lock"></span>
+	            </div>
+	            <div class="form-group mb-3">
+	            	<label class="label" for="password">Confirm Password</label>
+	              <input name="password-confirm" id="password-confirm" type="password" class="form-control" placeholder="Confirm Password" required>
+	              <span toggle="#password-confirm" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+	              <span class="icon fa fa-lock"></span>
+	            </div>
+	            <div class="form-group">
+	            	<button type="submit" class="form-control btn btn-primary submit px-3" value="Signup">Sign Up</button>
+	            </div>
+	          </form>
+	          <p>I'm already a member! <a href="login.html">Log In</a></p>
+	        </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js1/jquery.min.js"></script>
+  <script src="js1/popper.js"></script>
+  <script src="js1/bootstrap.min.js"></script>
+  <script src="js1/main.js"></script>
+
+	</body>
+</html>
