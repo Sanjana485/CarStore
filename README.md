@@ -29,15 +29,21 @@ Developed a web application for car sales using a combination of Java Servlets, 
 - 💻 Web Development
 
 ### Screenshots 📸
-
 ![image](https://github.com/user-attachments/assets/a544eaee-f2f3-4e33-a5e8-378a79e28740)
 ![image](https://github.com/user-attachments/assets/d3dafe1d-0515-4f6a-b55c-f211e7927c9c)
 ![image](https://github.com/user-attachments/assets/59ebff22-7722-4ea5-954e-afdea87cc95c)
-![image](https://github.com/user-attachments/assets/0b9fdeb7-ef17-4ce8-a40e-a54c0199a856)
+![image](https://github.com/user-attachments/assets/638a37bf-743f-4e8a-9aac-5aabd935e3b7)
 ![image](https://github.com/user-attachments/assets/ecf9d49e-5ca2-4c3a-8fcd-92ccba797e04)
 ![image](https://github.com/user-attachments/assets/054ed9a4-0e80-48c0-8449-57c87e8c5be3)
-![image](https://github.com/user-attachments/assets/a86acb74-27c6-4326-a74f-f0e86ffbd996)
-![image](https://github.com/user-attachments/assets/566a8f24-9972-4702-b565-9895c4b577b8)
+![image](https://github.com/user-attachments/assets/804e74db-b096-4263-9a41-8774283f8807)
+![image](https://github.com/user-attachments/assets/51b43f78-bd2d-401a-b8d6-2e1f7f4e2b2e)
+
+
+
+
+
+
+
 
 ### Poster Presentation 📜
 Here is a poster presentation summarizing the project:
